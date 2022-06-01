@@ -36,3 +36,19 @@ int toko::inputan(){
 		cout <<"----------------------------";
 		cout <<"\n";
 	}
+	cout << endl << endl;
+	cout << "========= INFORMASI BARANG ===========\n";
+	cout << "_____________\n";
+	cout << "|ID Barang| Nama Barang|Jumlah Stok  | \n";
+	cout << "|___|____|_____| \n";
+	for(int i=0; i<n; i++){
+		cout << "  " << m[i].id << "         " << m[i].barang << "             " << m[i].stok;
+		cout << endl;
+	}
+	return 0;
+}
+int main(){
+	toko jono;
+	jono.barang();
+	jono.inputan();
+}
